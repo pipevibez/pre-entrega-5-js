@@ -15,7 +15,7 @@ El objetivo principal es consolidar el modelado de datos usando JavaScript moder
 - Define una clase llamada `ServicioWeb`.
 - Utiliza un constructor para inicializar las propiedades de cada servicio.
 - Crea objetos reales usando la palabra clave `new`.
-- Trabaja con al menos tres instancias diferentes.
+- Trabaja con tres instancias diferentes.
 - Guarda las instancias dentro de un array.
 - Recorre el array con `for...of`.
 - Muestra la información de cada servicio en consola.
@@ -48,7 +48,7 @@ Recibe un porcentaje, calcula el descuento correspondiente y modifica el precio 
 
 ### `reservarCupo(cantidad)`
 
-Recibe una cantidad de cupos a reservar. Si hay disponibilidad suficiente, descuenta esa cantidad de los cupos disponibles.
+Recibe una cantidad de cupos a reservar. Si hay disponibilidad suficiente, descuenta esa cantidad de los cupos disponibles. Si la cantidad solicitada supera los cupos disponibles, muestra un mensaje en consola.
 
 ### `mostrarInformacion()`
 
